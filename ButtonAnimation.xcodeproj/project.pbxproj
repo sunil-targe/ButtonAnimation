@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38CFC07E228EC093004BF0B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFC07D228EC093004BF0B6 /* AppDelegate.swift */; };
+		38CFC080228EC093004BF0B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFC07F228EC093004BF0B6 /* ViewController.swift */; };
+		38CFC083228EC093004BF0B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CFC081228EC093004BF0B6 /* Main.storyboard */; };
+		38CFC085228EC095004BF0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CFC084228EC095004BF0B6 /* Assets.xcassets */; };
+		38CFC088228EC095004BF0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CFC086228EC095004BF0B6 /* LaunchScreen.storyboard */; };
+		38CFC090228EC16F004BF0B6 /* TwitterHeartButton.json in Resources */ = {isa = PBXBuildFile; fileRef = 38CFC08F228EC16F004BF0B6 /* TwitterHeartButton.json */; };
+		FD305243FD6B5C5702ED04AB /* Pods_ButtonAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028C84F658728556A319CC6F /* Pods_ButtonAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028C84F658728556A319CC6F /* Pods_ButtonAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ButtonAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CFC07A228EC093004BF0B6 /* ButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CFC07D228EC093004BF0B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38CFC07F228EC093004BF0B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38CFC082228EC093004BF0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38CFC084228EC095004BF0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CFC087228EC095004BF0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38CFC089228EC095004BF0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CFC08F228EC16F004BF0B6 /* TwitterHeartButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeartButton.json; sourceTree = "<group>"; };
+		4D0D9E9F48909203CDF792EA /* Pods-ButtonAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonAnimation/Pods-ButtonAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		509438D1FF6004F957A62348 /* Pods-ButtonAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonAnimation/Pods-ButtonAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CFC077228EC093004BF0B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD305243FD6B5C5702ED04AB /* Pods_ButtonAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F25281CDE3589875AEB15E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				028C84F658728556A319CC6F /* Pods_ButtonAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38CFC071228EC093004BF0B6 = {
+			isa = PBXGroup;
+			children = (
+				38CFC07C228EC093004BF0B6 /* ButtonAnimation */,
+				38CFC07B228EC093004BF0B6 /* Products */,
+				B4F223E9D66FC208DEF89AF6 /* Pods */,
+				14F25281CDE3589875AEB15E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38CFC07B228EC093004BF0B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CFC07A228EC093004BF0B6 /* ButtonAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CFC07C228EC093004BF0B6 /* ButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				38CFC07D228EC093004BF0B6 /* AppDelegate.swift */,
+				38CFC07F228EC093004BF0B6 /* ViewController.swift */,
+				38CFC081228EC093004BF0B6 /* Main.storyboard */,
+				38CFC084228EC095004BF0B6 /* Assets.xcassets */,
+				38CFC086228EC095004BF0B6 /* LaunchScreen.storyboard */,
+				38CFC08F228EC16F004BF0B6 /* TwitterHeartButton.json */,
+				38CFC089228EC095004BF0B6 /* Info.plist */,
+			);
+			path = ButtonAnimation;
+			sourceTree = "<group>";
+		};
+		B4F223E9D66FC208DEF89AF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				509438D1FF6004F957A62348 /* Pods-ButtonAnimation.debug.xcconfig */,
+				4D0D9E9F48909203CDF792EA /* Pods-ButtonAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CFC079228EC093004BF0B6 /* ButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CFC08C228EC095004BF0B6 /* Build configuration list for PBXNativeTarget "ButtonAnimation" */;
+			buildPhases = (
+				39295EC73940191B165CFBA4 /* [CP] Check Pods Manifest.lock */,
+				38CFC076228EC093004BF0B6 /* Sources */,
+				38CFC077228EC093004BF0B6 /* Frameworks */,
+				38CFC078228EC093004BF0B6 /* Resources */,
+				FAE043ABF2BF8F715037BA08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonAnimation;
+			productName = ButtonAnimation;
+			productReference = 38CFC07A228EC093004BF0B6 /* ButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CFC072228EC093004BF0B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = suniltarge;
+				TargetAttributes = {
+					38CFC079228EC093004BF0B6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 38CFC075228EC093004BF0B6 /* Build configuration list for PBXProject "ButtonAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CFC071228EC093004BF0B6;
+			productRefGroup = 38CFC07B228EC093004BF0B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CFC079228EC093004BF0B6 /* ButtonAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CFC078228EC093004BF0B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CFC088228EC095004BF0B6 /* LaunchScreen.storyboard in Resources */,
+				38CFC085228EC095004BF0B6 /* Assets.xcassets in Resources */,
+				38CFC090228EC16F004BF0B6 /* TwitterHeartButton.json in Resources */,
+				38CFC083228EC093004BF0B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39295EC73940191B165CFBA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ButtonAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE043ABF2BF8F715037BA08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ButtonAnimation/Pods-ButtonAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonAnimation/Pods-ButtonAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CFC076228EC093004BF0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CFC080228EC093004BF0B6 /* ViewController.swift in Sources */,
+				38CFC07E228EC093004BF0B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38CFC081228EC093004BF0B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CFC082228EC093004BF0B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CFC086228EC095004BF0B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CFC087228EC095004BF0B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38CFC08A228EC095004BF0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38CFC08B228EC095004BF0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38CFC08D228EC095004BF0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509438D1FF6004F957A62348 /* Pods-ButtonAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YYKQ73Y9HX;
+				INFOPLIST_FILE = ButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = suniltarge.ButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38CFC08E228EC095004BF0B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0D9E9F48909203CDF792EA /* Pods-ButtonAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YYKQ73Y9HX;
+				INFOPLIST_FILE = ButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = suniltarge.ButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CFC075228EC093004BF0B6 /* Build configuration list for PBXProject "ButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CFC08A228EC095004BF0B6 /* Debug */,
+				38CFC08B228EC095004BF0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CFC08C228EC095004BF0B6 /* Build configuration list for PBXNativeTarget "ButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CFC08D228EC095004BF0B6 /* Debug */,
+				38CFC08E228EC095004BF0B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38CFC072228EC093004BF0B6 /* Project object */;
+}
